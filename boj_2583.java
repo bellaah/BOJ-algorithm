@@ -4,6 +4,9 @@ import java.io.*;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
+/*
+https://www.acmicpc.net/problem/2383
+*/
 
 public class boj_2583 {
 	static boolean[][] check;
