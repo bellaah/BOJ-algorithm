@@ -41,7 +41,5 @@ public class doll {
 			}
 		}
 		System.out.println(String.format("%.12f", min)); // 소수점12자리까지 출
-
 	}
-
 }
