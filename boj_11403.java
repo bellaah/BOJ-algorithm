@@ -55,5 +55,4 @@ public class boj_11403 {
 				}
 			}	
 	}
-
-}
+} 
