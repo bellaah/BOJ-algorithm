@@ -35,7 +35,7 @@ public class Main{
 	        for(int i=0; i<n; i++) {
 	        	if(max<dp[n-1][i]) {
 	        		max=dp[n-1][i];
-	        	}
+	        	} 
 	        }
 	        System.out.print(max);
 	}
