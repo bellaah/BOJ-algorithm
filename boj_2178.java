@@ -3,6 +3,9 @@ package kakao_test;
 import java.io.*;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+/*
+https://www.acmicpc.net/problem/2178
+*/
 
 public class boj_2178 {
 
