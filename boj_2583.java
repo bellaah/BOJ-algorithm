@@ -1,11 +1,9 @@
 package kakao_test;
 
 import java.io.*;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.util.*;
 /*
-https://www.acmicpc.net/problem/2383
+https://www.acmicpc.net/problem/2583
 */
 
 public class boj_2583 {
@@ -81,5 +79,4 @@ public class boj_2583 {
 		BFS(Integer.parseInt(str.split(",")[0]),Integer.parseInt(str.split(",")[1]));
 		}
 	}
-
 }
