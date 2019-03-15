@@ -22,5 +22,5 @@ public class Main {
 			tmp+=i;
 		}
 		System.out.print(dividend+"/"+divisor);
-	}
-}
+	} 
+} 
