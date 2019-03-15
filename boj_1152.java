@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
-https://www.acmicpc.net/problem/11403
+https://www.acmicpc.net/problem/1152
 */
 public class Main {
 	public static void main(String[] args) {
