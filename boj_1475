@@ -1,0 +1,23 @@
+import java.util.Scanner;
+/*
+https://www.acmicpc.net/problem/1475
+*/
+public class Main {
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		String room=in.next();
+		int[] score=new int[10];
+		int max=0;
+		for(int i=0; i<room.length(); i++) {
+			score[room.charAt(i)-48]++;
+		}
+		score[6]=(score[6]+score[9]+1)/2;
+		score[9]=score[6];
+		for(int i=0; i<score.length; i++) {
+			if(max<score[i]) {
+				max=score[i];
+			}
+		}
+		System.out.print(max);
+	}
+}
