@@ -29,3 +29,4 @@ public class Main {
 		System.out.println(password.length()+" "+password.charAt(password.length()/2));
 	}
 }
+ 
